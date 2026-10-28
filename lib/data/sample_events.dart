@@ -1,0 +1,118 @@
+import '../models/event_item.dart';
+
+final List<EventItem> sampleEvents = [
+  const EventItem(
+    id: 'evt-1',
+    title: 'Generative AI & LLM Deployment in Enterprise Systems',
+    speaker: 'Dr. Arya Wicaksono, M.Kom',
+    speakerRole: 'Principal AI Architect @ TechNusantara',
+    category: 'AI',
+    date: '12 November 2026',
+    time: '09:00 - 12:00 WIB',
+    location: 'Auditorium Utama, Nusa Convention Center',
+    room: 'Auditorium Utama',
+    quota: 120,
+    registeredCount: 94,
+    price: 0,
+    description:
+        'Mendalami implementasi model Large Language Model (LLM), teknik RAG, serta deployment berskala tinggi dengan efisiensi memori.',
+    posterUrl:
+        'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop',
+    tags: ['Generative AI', 'Deep Learning', 'RAG'],
+  ),
+  const EventItem(
+    id: 'evt-2',
+    title: 'Mastering Flutter & Dart 3: Clean Architecture & Micro-frontends',
+    speaker: 'Rian Pratama, S.Kom',
+    speakerRole: 'Google Developer Expert (GDE) for Flutter',
+    category: 'Mobile',
+    date: '12 November 2026',
+    time: '13:00 - 16:30 WIB',
+    location: 'Workshop Hall A, Lantai 2',
+    room: 'Workshop Hall A',
+    quota: 80,
+    registeredCount: 68,
+    price: 0,
+    description:
+        'Studi kasus komprehensif implementasi Bloc & Riverpod 2.0, dynamic animations di Flutter, dan optimasi performa widget tree.',
+    posterUrl:
+        'https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80',
+    tags: ['Flutter 3.x', 'Dart 3', 'State Management'],
+  ),
+  const EventItem(
+    id: 'evt-3',
+    title: 'Smart City & Edge Computing dengan Industrial IoT & ESP32',
+    speaker: 'Ir. Budi Santoso, M.T.',
+    speakerRole: 'Head of Embedded Engineering @ IoT Nusantara',
+    category: 'IoT',
+    date: '13 November 2026',
+    time: '09:30 - 12:30 WIB',
+    location: 'Lab Inovasi IoT, Lantai 1',
+    room: 'Innovation Lab',
+    quota: 60,
+    registeredCount: 52,
+    price: 0,
+    description:
+        'Integrasi protokol MQTT, LoRaWAN, dan edge microcontrollers untuk monitoring sensor realtime dengan dashboard analitik cerdas.',
+    posterUrl:
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
+    tags: ['ESP32', 'MQTT', 'Edge Computing'],
+  ),
+  const EventItem(
+    id: 'evt-4',
+    title: 'Defensive Cybersecurity & Zero Trust Architecture in Modern Cloud',
+    speaker: 'Siti Rahmawati, CISSP, CISA',
+    speakerRole: 'Chief Security Officer @ CyberGuard ID',
+    category: 'Cybersecurity',
+    date: '13 November 2026',
+    time: '14:00 - 17:00 WIB',
+    location: 'Workshop Hall B, Lantai 2',
+    room: 'Workshop Hall B',
+    quota: 100,
+    registeredCount: 88,
+    price: 0,
+    description:
+        'Teknik mendeteksi ancaman APT, implementasi IAM Zero Trust, audit celah keamanan API, dan simulasi insiden respon cybersecurity.',
+    posterUrl:
+        'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80',
+    tags: ['Zero Trust', 'Cloud Security', 'Threat Hunting'],
+  ),
+  const EventItem(
+    id: 'evt-5',
+    title: 'Computer Vision & Real-Time Object Detection on Mobile Devices',
+    speaker: 'Kevin Sanjaya, M.Sc',
+    speakerRole: 'AI Research Engineer @ VisionTech Lab',
+    category: 'AI',
+    date: '14 November 2026',
+    time: '09:00 - 12:00 WIB',
+    location: 'Auditorium Utama, Nusa Convention Center',
+    room: 'Auditorium Utama',
+    quota: 110,
+    registeredCount: 79,
+    price: 0,
+    description:
+        'Eksplorasi YOLOv11 dan TensorFlow Lite untuk inferensi Computer Vision langsung di smartphone dengan latency sub-15ms.',
+    posterUrl:
+        'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop',
+    tags: ['YOLO', 'TFLite', 'Computer Vision'],
+  ),
+  const EventItem(
+    id: 'evt-6',
+    title: 'Securing Mobile Apps: Anti-Tamper & Reverse Engineering Defense',
+    speaker: 'Dimas Aditya, CEH',
+    speakerRole: 'Lead Mobile Pentester @ RedTeam Indo',
+    category: 'Cybersecurity',
+    date: '14 November 2026',
+    time: '13:30 - 16:30 WIB',
+    location: 'Workshop Hall B, Lantai 2',
+    room: 'Workshop Hall B',
+    quota: 75,
+    registeredCount: 60,
+    price: 0,
+    description:
+        'Strategi proteksi binary Android & iOS, SSL Pinning, deteksi root/jailbreak, serta mitigasi hooking Frida.',
+    posterUrl:
+        'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80',
+    tags: ['Mobile Security', 'Anti-Frida', 'SSL Pinning'],
+  ),
+];
